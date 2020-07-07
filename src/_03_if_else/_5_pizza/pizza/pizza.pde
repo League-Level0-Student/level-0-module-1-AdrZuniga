@@ -3,11 +3,7 @@ void setup() {
   size(500,500);
     fill(#F0E56D);
 ellipse( 200, 350, 296,294 );
-    
-
-}
-void draw() {
-  fill(#CE0202);
+      fill(#CE0202);
 ellipse( 200, 350, 243, 242);
 
   fill(#271A1A);
@@ -23,6 +19,15 @@ fill(#271A1A);
 ellipse( 238, 460, 15, 13);
 ellipse( 107, 311, 15, 13);
 ellipse( 199, 382, 15, 13);
-ellipse( 359, 265, 15, 13);
+ellipse( 250, 262, 15, 13);
+
+}
+void draw() {
+
+
+if ( mousePressed){
+  fill(#760C10);
+  ellipse( mouseX, mouseY, 40, 40);
+}
     
 }
