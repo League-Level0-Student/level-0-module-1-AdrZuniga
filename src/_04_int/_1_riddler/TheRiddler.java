@@ -46,13 +46,20 @@ public class TheRiddler {
 			score++;
 		JOptionPane.showMessageDialog(null, "Correct! your score is " +score);
 		}
+		else {
+			JOptionPane.showMessageDialog(null, "Wrong, the answer is 'your words'");
+		}
+		
 		
 		String fourthRiddle = JOptionPane.showInputDialog("Last one. What has legs, but can`t walk");
 		
-		if (fourthRiddle.quals("a table")) {
-			
+		if (fourthRiddle.equals("a table")) {
+			score++;
+			JOptionPane.showMessageDialog(null, "Correct! your score is " +score);
 		}
-		
+		else {
+			JOptionPane.showMessageDialog(null, "Wrong, the asnwer is 'a table'");
+		}
 		
 		
 		
